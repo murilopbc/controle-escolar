@@ -17,7 +17,7 @@ a partir dos seguintes requisitos:
 let btnCalcular = document.getElementById("btn-calcular");
 let resultado = document.getElementById("resultado");
 
-// Adicionando um escutador no botão de calcular a nota do aluno
+// Adicionando um escutador no botão para calcular a nota do aluno
 
 btnCalcular.addEventListener('click', function(e){
    e.preventDefault();
