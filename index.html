@@ -6,30 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle Escolar</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
     <div class="controle-escolar">
-            <form action="" id="formNota">
-            <h2 id="controle-escolar">Controle Escolar</h2>
 
-            <label for="nome" class="item-label">Nome</label>
-            <input type="text" class="item-campo" id="nome">
+        <form action="" id="formNota">
+            <h2 id="exemplo-controle-escolar">Controle Escolar</h2>
+            <label for="nome" class="item label">Nome</label>
+            <input id="nome" class="item campo" type="text" />
 
-            <label for="nota" class="item-label">Nota</label>
-            <input type="number" class="item-campo" id="nota">
+            <label for="nota" class="item label">Nota Final</label>
+            <input id="nota" class="item campo" type="number" />
 
-            <label for="nome" class="item-label">Frequencia</label>
-            <input type="number" class="item-campo" id="frequencia">
+            <label for="frequencia" class="item label">Frequencia</label>
+            <input id="frequencia" class="item campo" type="number" />
 
-            <button type="submit" id="btn-calcular" class="item-button">Calcular</button>
+            <button type="submit" id="btn-calcular" class="item botao">Calcular</button>
 
-            <button id="btn-limpar" class="item-button">Limpar</button>
+            <button id="btn-limpar" class="item botao">Limpar</button>
 
-            <label for="resultado" class="item-label">Resultado</label>
-            <p id="resultado" class="item-saida"></p>
-
-            </form>
+            <p id="resultado" class="item saida"></p>
+        </form>
     </div>
 </body>
 
