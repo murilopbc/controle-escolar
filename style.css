@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.controle-escolar{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+.controle-escolar h2 {
+    color: black;
+  }
+
+  .controle-escolar input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+
+.controle-escolar button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
